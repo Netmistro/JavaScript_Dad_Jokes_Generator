@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: linear-gradient(45deg, lightblue, lightpink, lightblue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1.2rem;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  width: 85%;
+  text-align: center;
+  color: darkgreen;
+}
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: 200;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+.joke {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2.2rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: 700px;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  width: 300px;
+  color: darkgreen;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
